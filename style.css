@@ -28,6 +28,7 @@ nav ul li{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    margin: 10px;
 }
 .nav-link:hover{
     color: #f05136;
@@ -72,7 +73,7 @@ h4{
     color: white;
     font-size: 1.8em;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 10px;
     border-color: black;
 }
 .link-botton:hover{
@@ -131,7 +132,7 @@ progress[value]{
     width: 350px;
     -webkit-appearance:none;
 }
-progress[value]:::-webkit-progress-bar{
+progress[value]::-webkit-progress-bar{
     background-color: grey;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
@@ -153,9 +154,10 @@ progress[value]:::-webkit-progress-bar{
 .input{
     line-height: 2em;
     width: 350px;
-    border-radius: 3px;
+    border-radius: 5px;
     border-color: black;
     margin: 20px 0;
+    padding: 0 10px;
 }
 #bio{
     display: flex;
