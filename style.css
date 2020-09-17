@@ -28,6 +28,7 @@ nav ul li{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    margin: 10px;
 }
 .nav-link:hover{
     color: #f05136;
@@ -131,7 +132,7 @@ progress[value]{
     width: 350px;
     -webkit-appearance:none;
 }
-progress[value]:::-webkit-progress-bar{
+progress[value]::-webkit-progress-bar{
     background-color: grey;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
