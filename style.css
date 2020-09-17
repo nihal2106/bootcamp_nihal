@@ -73,7 +73,7 @@ h4{
     color: white;
     font-size: 1.8em;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 10px;
     border-color: black;
 }
 .link-botton:hover{
@@ -154,9 +154,10 @@ progress[value]::-webkit-progress-bar{
 .input{
     line-height: 2em;
     width: 350px;
-    border-radius: 3px;
+    border-radius: 5px;
     border-color: black;
     margin: 20px 0;
+    padding: 0 10px;
 }
 #bio{
     display: flex;
